@@ -114,3 +114,45 @@ function calc(){
 }
 calc()
 */
+//Analisador de elementos
+/*
+function AnalyseNumber(){
+  let x = prompt('Insira qualquer coisa aqui e eu digo se é número ou não')
+  if(isNaN(x)||x==null){
+    alert('não é um número')
+  }else{
+    alert('é um número :)')
+  }
+  console.log(typeof(x))
+}
+AnalyseNumber();
+*/
+//Analisador de Booleanos
+/*
+function AnalyseBoolean() {
+  let y = prompt('Insira um valor booleano (true/false) ou não');
+  
+  if (y === 'true' || y === 'false'|| y===0||y===1) {
+    alert('É booleano');
+  } else {
+    alert('Não é booleano');
+  }
+}
+
+AnalyseBoolean();
+*/
+//Par ou não
+/*
+function IsPair(){
+  let w = prompt('Insira um número e veja se ele é par ou não')
+  Number(w);
+  if(isNaN(w)){
+    alert('Não é número')
+  }else if(w%2==0){
+alert('É par')
+  }else if(w%2==1){
+    alert('Não é par')
+  }
+}
+IsPair();
+*/
